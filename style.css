@@ -1,0 +1,134 @@
+/* Estilos Generales */
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+/* Encabezado */
+.cv-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+}
+
+.cv-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cv-header .subtitle {
+    font-size: 22px;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-info span {
+    margin: 0 10px;
+    color: #555;
+}
+
+/* Secciones Principales */
+.cv-main section {
+    margin-bottom: 30px;
+}
+
+.profile p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Experiencia */
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.job-details {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Educación */
+.course h3 {
+    font-size: 20px;
+}
+
+.course-details {
+    font-size: 15px;
+    color: #777;
+    font-style: italic;
+}
+
+/* Habilidades */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #eaf2f8;
+    color: #333;
+    padding: 8px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.skills li strong {
+    color: #2c3e50;
+}
